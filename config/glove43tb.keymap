@@ -1,4 +1,4 @@
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 150
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
 #include <behaviors/rgbled_widget.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
@@ -143,8 +143,6 @@
 &kp Z      &kp X         &kp C         &kp V          &kp B        &kp INS            &kp JP_TILDE  &kp N          &kp M  &kp COMMA  &kp DOT  &kp LEFT_SHIFT
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 JP_MHEN  &lt 1 SPACE  &lt 2 JP_HENK      &kp DELETE    &kp BACKSPACE                             &kp LS(JP_EISU)
             >;
-
-            sensor-bindings = <&mouse_wheel_scroll SCRL_DOWN SCRL_UP>;
         };
 
         SYMBOL_FUNCTION {
@@ -154,8 +152,6 @@
 &kp JP_SEMI   &kp JP_AMPS  &kp JP_LBKT    &kp JP_RBKT       &kp JP_DQT  &kp JP_EQUAL      &trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp EXCLAMATION
 &trans        &trans       &trans         &trans            &trans      &trans            &trans  &trans                              &kp QUESTION
             >;
-
-            sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         ARROW_NUM {
