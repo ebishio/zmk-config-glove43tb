@@ -159,12 +159,12 @@
             sensor-bindings = <&mouse_wheel_scroll SCRL_DOWN SCRL_UP>;
         };
 
-        FUNCTION {
+        SYMBOL_FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&trans        &kp DOLLAR   &kp LESS_THAN  &kp GREATER_THAN  &kp JP_AT                             &kp F1   &kp F2   &kp F3   &kp F4   &kp F5
+&kp JP_COLON  &kp JP_YEN   &kp JP_LPAR    &kp JP_RPAR       &kp JP_SQT  &trans            &trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10
+&kp JP_SEMI   &kp JP_AMPS  &kp JP_LBKT    &kp JP_RBKT       &kp JP_DQT  &kp JP_EQUAL      &trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp EXCLAMATION
+&trans        &trans       &trans         &trans            &trans      &trans            &trans  &trans                              &kp QUESTION
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
