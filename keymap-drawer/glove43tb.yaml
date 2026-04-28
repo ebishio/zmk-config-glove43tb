@@ -38,9 +38,9 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: INT5, h: ARROW}
+  - {t: INT5, h: SHORTCUT}
   - {t: SPACE, h: SYMBOL_FUNCTION}
-  - {t: INT4, h: NUM}
+  - {t: INT4, h: ARROW_NUM}
   - DELETE
   - BACKSPACE
   - Sft+CAPS
@@ -88,41 +88,41 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '?'
-  NUM:
-  - '-'
-  - KP 7
-  - KP 8
-  - KP 9
-  - +
-  - ^
-  - '&'
-  - '~'
-  - (
-  - )
-  - /
-  - KP 4
-  - KP 5
-  - KP 6
-  - '*'
-  - Ctl+Alt+KP 0
-  - _
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - {t: KP 0, h: LEFT SHIFT}
-  - KP 1
-  - KP 2
-  - KP 3
-  - .
-  - '='
+  ARROW_NUM:
   - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - '{'
-  - '}'
-  - \
+  - PAGE UP
+  - UP ARROW
+  - PAGE DOWN
+  - '='
+  - Sft+'
+  - '7'
+  - '8'
+  - '9'
+  - Sft+;
+  - ''''
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - Sft+3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - /
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - ;
+  - HOME
+  - {t: ▽, type: trans}
+  - END
+  - Sft+5
+  - Sft+-
+  - {t: ▽, type: trans}
+  - Sft+INT1
+  - '1'
+  - '2'
+  - '3'
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -131,36 +131,36 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '|'
-  ARROW:
-  - ESCAPE
+  - .
+  SHORTCUT:
+  - Alt+TAB
+  - Alt+PRINTSCREEN
+  - Sft+Ctl+A
+  - PRINTSCREEN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+T
+  - Ctl+F4
+  - Ctl+PAGE UP
+  - Ctl+PAGE DOWN
+  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - Alt+LEFT ARROW
+  - Alt+RIGHT ARROW
   - Ctl+Sft+TAB
-  - UP ARROW
   - Ctl+TAB
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - HOME
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - Gui+Sft+LEFT ARROW
-  - {t: ▽, type: trans}
-  - Gui+Sft+RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '1'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
