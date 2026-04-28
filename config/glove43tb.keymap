@@ -50,9 +50,17 @@
 #define JP_QMARK LS(JP_SLASH) // ?
 #define JP_UNDER LS(JP_BSLH)  // _
 
+// マウスクリック操作時AML動作定義
+&mkp_input_listener { input-processors = <&zip_temp_layer 4 250>; };
+
+&lt {
+    flavor = "hold-preferred";
+    hold-while-undecided;
+};
+
 &mt {
-    flavor = "balanced";
-    quick-tap-ms = <0>;
+    flavor = "tap-preferred";
+    tapping-term-ms = <150>;
 };
 
 &mmv {
@@ -87,27 +95,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+            key-positions = <0 1>;
         };
     };
 
