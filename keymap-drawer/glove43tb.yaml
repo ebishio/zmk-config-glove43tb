@@ -154,7 +154,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - '&ind_con'
+  - '&ind_bat'
   - Alt+LEFT ARROW
   - Alt+RIGHT ARROW
   - Ctl+Sft+TAB
