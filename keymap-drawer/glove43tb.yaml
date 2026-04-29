@@ -154,7 +154,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - '&ind_bat'
+  - {t: ▽, type: trans}
   - Alt+LEFT ARROW
   - Alt+RIGHT ARROW
   - Ctl+Sft+TAB
@@ -173,8 +173,8 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&ind_con'
+  - '&ind_bat'
   - {t: ▽, type: trans}
   MOUSE:
   - {t: ▽, type: trans}
