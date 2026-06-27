@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - ESCAPE
-  - '-'
+  - '`'
   - H
   - J
   - K
@@ -29,7 +29,7 @@ layers:
   - V
   - B
   - INS
-  - Sft+=
+  - {t: ▽, type: trans}
   - N
   - M
   - ','
@@ -131,7 +131,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - .
+  - Sft+=
   SHORTCUT:
   - Alt+TAB
   - Alt+PRINTSCREEN
