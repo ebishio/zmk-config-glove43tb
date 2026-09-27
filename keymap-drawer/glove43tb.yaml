@@ -38,13 +38,13 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: INT5, h: SHORTCUT}
-  - {t: SPACE, h: SYMBOL_FUNCTION}
-  - {t: INT4, h: ARROW_NUM}
+  - {t: INT5, h: '3'}
+  - {t: SPACE, h: '1'}
+  - {t: INT4, h: '2'}
   - DELETE
   - BACKSPACE
   - Sft+CAPS
-  SYMBOL_FUNCTION:
+  '1':
   - {t: ▽, type: trans}
   - $
   - <
@@ -88,7 +88,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '?'
-  ARROW_NUM:
+  '2':
   - {t: ▽, type: trans}
   - PAGE UP
   - UP ARROW
@@ -132,7 +132,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+=
-  SHORTCUT:
+  '3':
   - Alt+TAB
   - Alt+PRINTSCREEN
   - Sft+Ctl+A
@@ -311,3 +311,15 @@ layers:
 combos:
 - p: [0, 1]
   k: TAB
+- p: [1, 2]
+  k: ESCAPE
+- p: [10, 11]
+  k: '`'
+- p: [11, 12]
+  k: INS
+- p: [17, 18]
+  k: '&mkp LCLK'
+- p: [18, 19]
+  k: '&mkp RCLK'
+- p: [17, 19]
+  k: '&mkp MCLK'
