@@ -16,8 +16,8 @@ layers:
   - D
   - F
   - G
-  - ESCAPE
-  - '`'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - H
   - J
   - K
@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - INS
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - N
   - M
