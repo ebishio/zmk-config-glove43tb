@@ -16,8 +16,8 @@ layers:
   - D
   - F
   - G
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESCAPE
+  - '`'
   - H
   - J
   - K
@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - {t: ▽, type: trans}
+  - INS
   - {t: ▽, type: trans}
   - N
   - M
@@ -39,56 +39,12 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - {t: INT5, h: '3'}
-  - {t: SPACE, h: '2'}
-  - {t: INT4, h: '1'}
+  - {t: SPACE, h: '1'}
+  - {t: INT4, h: '2'}
   - DELETE
   - BACKSPACE
   - Sft+CAPS
   '1':
-  - {t: ▽, type: trans}
-  - PAGE UP
-  - UP ARROW
-  - PAGE DOWN
-  - '='
-  - Sft+'
-  - '7'
-  - '8'
-  - '9'
-  - Sft+;
-  - ''''
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - Sft+3
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - /
-  - '4'
-  - '5'
-  - '6'
-  - '-'
-  - ;
-  - HOME
-  - {t: ▽, type: trans}
-  - END
-  - Sft+5
-  - Sft+-
-  - {t: ▽, type: trans}
-  - Sft+INT1
-  - '1'
-  - '2'
-  - '3'
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+=
-  '2':
   - {t: ▽, type: trans}
   - $
   - <
@@ -132,6 +88,50 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '?'
+  '2':
+  - {t: ▽, type: trans}
+  - PAGE UP
+  - UP ARROW
+  - PAGE DOWN
+  - '='
+  - Sft+'
+  - '7'
+  - '8'
+  - '9'
+  - Sft+;
+  - ''''
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - Sft+3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - /
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - ;
+  - HOME
+  - {t: ▽, type: trans}
+  - END
+  - Sft+5
+  - Sft+-
+  - {t: ▽, type: trans}
+  - Sft+INT1
+  - '1'
+  - '2'
+  - '3'
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+=
   '3':
   - Alt+TAB
   - Alt+PRINTSCREEN
