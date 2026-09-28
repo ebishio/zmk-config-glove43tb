@@ -89,12 +89,12 @@
 
         zkhk {
             bindings = <&kp JP_ZKHK>;
-            key-positions = <10 11>;
+            key-positions = <31 32>;
         };
 
         ins {
             bindings = <&kp INS>;
-            key-positions = <11 12>;
+            key-positions = <30 31>;
         };
 
         lclk {
