@@ -311,19 +311,28 @@ layers:
 combos:
 - p: [0, 1]
   k: TAB
+  l: [default]
 - p: [1, 2]
   k: ESCAPE
-- p: [31, 32]
-  k: '`'
-- p: [30, 31]
-  k: INS
-- p: [18, 19]
-  k: '&mkp LCLK'
-- p: [19, 20]
-  k: '&mkp RCLK'
-- p: [18, 20]
-  k: '&mkp MCLK'
+  l: [default]
 - p: [7, 8]
   k: '-'
+  l: [default]
 - p: [9, 8]
   k: Sft+=
+  l: [default]
+- p: [30, 31]
+  k: INS
+  l: [default]
+- p: [31, 32]
+  k: '`'
+  l: [default]
+- p: [18, 19]
+  k: '&mkp LCLK'
+  l: [default]
+- p: [19, 20]
+  k: '&mkp RCLK'
+  l: [default]
+- p: [18, 20]
+  k: '&mkp MCLK'
+  l: [default]
